@@ -41,3 +41,8 @@ header ul li.current a{
 video{
 	width: 100%;
 	height:auto;
+}
+
+body{
+	overflow-y: hidden;
+}
