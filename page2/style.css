@@ -42,10 +42,6 @@ header ul li.current a{
 p{
 	color: darkred;
 }
-section{
-	overflow: hidden;
-	overflow-y: hidden;
-}
 
 body{
 	overflow-y: hidden;
