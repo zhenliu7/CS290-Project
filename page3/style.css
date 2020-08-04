@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+header{
+	background-image: url(background.jpg);
+	height: 3vh;
+	background-size: cover;
+	background-position: center;
+}
+
+header ul {
+	float: right;
+	margin-top: 1vh;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	color: black;
+	padding: 3px 1vh;
+	border: .5px solid black;
+	transition: .5s;
+}
+
+header ul li a:hover{
+	background-color: skyblue;
+	color: white;
+}
+
+header ul li.current a{
+	background-color: lightblue;
+	color: white;
+
+}
+
+section{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(sP1.jpg);
+	height: 97vh;
+	overflow:hidden;
+	background-size: cover;
+	background-position: center;
+	padding:0 20px;
+}
+
+section .scrollbox{
+	position: relative;
+	top:10vh;
+	left: 75vh;
+	width: 50vh;
+	height: 75vh;
+	background: white;
+	padding: 10px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+section .scrollbox ul{
+	position: relative;
+	left:5vh;
+}
+input{
+	width: 20vh;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+input.comments{
+	width: 45vh;
+	height: 30vh;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+input.submit{
+	width: 10vh;
+	padding: 5px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+input.submit:hover{
+	background-color: skyblue;
+	color: white;
+}
+
+.button{
+	position: relative;
+	top: 15vh;
+	left:85vh;
+}
+
+.press{
+	border: 2px black;
+	padding: 10px 30px;
+	color: black;
+		transition: .5s;
+	background-color: lightgrey;
+}
+
+.press:hover{
+	background-color: skyblue;
+	color: white;
+}

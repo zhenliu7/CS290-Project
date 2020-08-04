@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+
+}
+
+header{
+	background-image: url(background.jpg);
+	height: 4vh;
+	background-size: cover;
+	background-position: center;
+}
+
+header ul {
+	float: right;
+	margin-top: 2vh;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	color: black;
+	padding: 3px 1vh;
+	border: .5px solid black;
+	transition: .5s;
+}
+
+header ul li a:hover{
+	background-color: skyblue;
+	color: white;
+}
+
+header ul li.current a{
+	background-color: lightblue;
+	color: white;
+
+}
+
+p{
+	color: darkred;
+}
+section{
+	overflow: hidden;
+	overflow-y: hidden;
+}
