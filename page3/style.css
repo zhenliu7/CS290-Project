@@ -64,17 +64,17 @@ section .scrollbox ul{
 	left:5vh;
 }
 input{
-	width: 20vh;
-	padding: 10px;
-	margin: 10px;
+	width: 45vh;
+	padding: 5px;
+	margin: 5px;
 	box-sizing: border-box;
 }
 
-input.comments{
+.comments{
 	width: 45vh;
-	height: 30vh;
-	padding: 10px;
-	margin: 10px;
+	height: 20vh;
+	padding: 5px;
+	margin: 5px;
 	box-sizing: border-box;
 }
 
